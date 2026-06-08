@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keys and credentials
+google-cloud-key.json
+*.pem
+
+# Databases
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
