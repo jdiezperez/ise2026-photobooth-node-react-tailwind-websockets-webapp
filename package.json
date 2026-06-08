@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client_ui\" \"npm run dev --prefix client_screen\"",
-    "install:all": "npm install && npm install --prefix server && npm install --prefix client_ui && npm install --prefix client_screen"
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client_ui && npm install --prefix client_screen",
+    "test": "jest"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "jest": "^29.7.0"
   }
 }
