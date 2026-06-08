@@ -54,3 +54,17 @@ The user flow is as follows:
    - **Main Screen:** Open the `client_screen` interface on the device connected to the camera.
    - **Tablet UI:** Open the `client_ui` interface on the tablet device.
    - *Note: Ensure both clients are pointing to the correct local IP address and WebSocket port of the common server.*
+  
+## Screenshots
+
+Home
+
+<img src="_images/photobooth_01.png" alt="Home" width="800">
+
+Background selection
+
+<img src="_images/photobooth_02.png" alt="Background selection" width="800">
+
+Take photo
+
+<img src="_images/photobooth_03.png" alt="Take photo" width="800">
